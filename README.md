@@ -3,15 +3,16 @@
 ## Config
 Silahkan buat file `.env` yang di ambil dari `.env.example` kemudian isi sesuai keadaan device masing-masing
 
-## Database Postgres
+## Run Project
 Buat lah database dahulu sesuai yang di atur di `.env`. Setelah itu jalankan migrate dengan cara mengganti pada bagian `.env` seperti berikut:
 ```env
 ENV=migration
 ```
 
-Setelah itu ketikkan perintah berikut:
+Untuk menjalankan project silahkan pilih apps sesuai sistem operasi teman-teman `windows`, `linux` atau `darwmin`.
+Contoh device teman teman menggunakan `linux`:
 ```bash
-make dev
+./todo_app_linux_amd64
 ```
 
 Jika sudah ubah menjadi berikut:
@@ -19,12 +20,7 @@ Jika sudah ubah menjadi berikut:
 ENV=dev
 ```
 
-## Run Project
-Untuk menjalankan project silahkan pilih apps sesuai sistem operasi teman-teman `windows`, `linux` atau `darwmin`. 
-Contoh device teman teman menggunakan `linux`:
-```bash
-./todo_app_linux_amd64
-```
+Jalnkan lagi program nya.
 
 Setelah berhasil berjalan akses `swagger` di halaman berikut:
 ```
